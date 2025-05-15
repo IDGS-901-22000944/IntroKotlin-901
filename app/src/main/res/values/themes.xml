@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <style name="Theme.IntroKotlin901" parent="android:Theme.Material.Light.NoActionBar" />
+    <!-- Cambia el parent a Theme.AppCompat -->
+    <style name="Theme.IntroKotlin901" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Personaliza tu tema aquí si es necesario -->
+    </style>
 </resources>
