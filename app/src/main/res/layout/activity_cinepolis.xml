@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#44a8f1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Imagen del cine -->
+        <ImageView
+            android:id="@+id/imageViewCine"
+            android:layout_width="379dp"
+            android:layout_height="150dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/cinepolis" />
+
+
+
+
+        <EditText
+            android:id="@+id/Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="Nombre "/>
+
+
+
+        <!-- Cantidad de compradores -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad de compradores"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/Compradores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Tarjeta cineco -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta cineco"
+            android:layout_marginBottom="5dp"/>
+
+        <RadioGroup
+            android:id="@+id/Tarjeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <RadioButton
+                android:id="@+id/radioSi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Si"
+                android:layout_marginRight="20dp"/>
+
+            <RadioButton
+                android:id="@+id/radioNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"/>
+        </RadioGroup>
+
+        <!-- Cantidad de Boletos -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cantidad de Boletos"
+            android:layout_marginBottom="5dp"/>
+
+        <EditText
+            android:id="@+id/Boletos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Boletos a Pagar -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Boletos a Pagar"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="$ 0.00"
+            android:textSize="18sp"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- Botón Calcular -->
+        <Button
+            android:id="@+id/Calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:backgroundTint="#2665b7"/>
+    </LinearLayout>
+</ScrollView>
