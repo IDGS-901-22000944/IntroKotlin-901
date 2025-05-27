@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
+    android:id="@+id/btnGuardarCap"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="16dp"
@@ -34,6 +34,16 @@
         android:text="Saludo"
 
         tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:text="Diccionario"
+
+        tools:ignore="MissingConstraints" />
+
+
 
 
 
